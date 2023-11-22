@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/guestBook.css" />
+    <title>방명록</title>
+  </head>
+  <body>
+    <div class="guest">
+      <header class="guest__header">
+        <a href="http://localhost:3000"
+          ><img src="/images/comseba_logo.png.png" alt="컴세바로고"
+        /></a>
+        <div class="home__header__right">
+          <a href="http://localhost:3000/map">오시는 길</a>
+          <a href="http://localhost:3000/guest">방명록</a>
+        </div>
+      </header>
+
+      <form action="" class="guest__form">
+        <p>방명록</p>
+        <input type="text" placeholder="Your Name..." />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Comment..."
+        ></textarea>
+        <button>Comment</button>
+      </form>
+    </div>
+
+    <div class="guest__comment-areas">
+      <div class="guest__comment">
+        <div class="guest__comment__left">
+          <div class="guest__comment__left__name">홍길동</div>
+        </div>
+        <div class="guest__comment__right">
+          <div class="guest__comment__right__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.ut vitae
+            quis illum maiores iste, architecto enim sunt laboriosam, ullam
+            obcaecati magni ad aspernatur sapiente sit, ab quae. Tempore,
+            quisquam odit?
+          </div>
+          <div class="guest__comment__right__time">13 분전</div>
+        </div>
+      </div>
+      <div class="guest__comment">
+        <div class="guest__comment__left">
+          <div class="guest__comment__left__name">홍길동</div>
+        </div>
+        <div class="guest__comment__right">
+          <div class="guest__comment__right__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. ut vitae
+            quis illum maiores iste, architecto enim sunt laboriosam, ullam
+            obcaecati magni ad aspernatur sapiente sit, ab quae. Tempore,
+            quisquam odit?Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Voluptatibus cum nulla quam dolores, non ipsam repellendus
+            vitae, enim expedita id ab repudiandae recusandae assumenda aperiam
+            facere cupiditate nostrum. Laboriosam, ad?
+          </div>
+          <div class="guest__comment__right__time">13 분전</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/src/js/guestBook.js"></script>
+  </body>
+</html>

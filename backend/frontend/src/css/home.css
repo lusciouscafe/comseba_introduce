@@ -1,0 +1,385 @@
+/* header */
+@import url("./reset.css");
+@import url("./common.css");
+
+.home__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__header__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.home__header__right a {
+  color: var(--main-color);
+}
+
+.home__header__right img {
+  width: 100%;
+}
+
+/* intro */
+.home__intro {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.home__intro__left {
+  width: 50%;
+}
+
+.home__intro__left__text {
+  color: var(--main-color);
+}
+
+.home__intro__left__text p:nth-child(2) {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.home__intro__left__rink-btn {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.home__intro__left__sns {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+
+.home__intro__left__sns p {
+  font-size: 40px;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.home__intro__left__sns img {
+  cursor: pointer;
+}
+
+.home__intro__right {
+  width: 50%;
+}
+
+/* description */
+.home__description {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.home__description__logo-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: var(--logo-background);
+}
+
+.home__description__logo {
+  color: white;
+  font-size: 100px;
+  margin-top: -10px;
+  font-weight: 900;
+}
+
+.home__description p:nth-of-type(1) {
+  margin-top: 3rem;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.home__description span:nth-of-type(2) {
+  color: var(--dark-gray);
+}
+
+.home__description p:nth-of-type(n) {
+  margin-top: 3rem;
+}
+
+.home__description p:nth-of-type(8) {
+  margin-top: 8rem;
+}
+
+.home__description p:nth-of-type(9) {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.home__description span.bold {
+  font-weight: 700;
+  color: var(--dark-gray);
+}
+
+/* learn-skills */
+.home__learn-skills {
+  color: var(--main-color);
+  margin-top: 20rem;
+  text-align: center;
+}
+
+.home__learn-skills .bold {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.home__learn-skills__skills-box {
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.home__learn-skills__skills-box p {
+  padding-bottom: 1rem;
+}
+
+.home__learn-skills__skills-box__1 {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.home__learn-skills__skills-box__1 div {
+  padding-left: 7rem;
+}
+
+.home__learn-skills__skills-box__2 {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.home__learn-skills__skills-box__2 div {
+  padding-left: 7rem;
+  padding-top: 2rem;
+}
+
+/* learn-skills-title */
+.home__learn-skills__title {
+  color: var(--dark-gray);
+  margin-top: 20rem;
+  padding-left: 7rem;
+}
+
+.home__learn-skills__title .bold {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.home__learn-skills__title__flex-box {
+  display: flex;
+  color: var(--main-color);
+}
+
+/* learn-skill */
+.home__learn-skills__container {
+  width: 70%;
+  margin: 5rem auto;
+  border: 1px solid var(--dark-gray);
+  border-radius: 10px;
+  padding: 3rem;
+  position: relative;
+}
+
+.home__learn-skills__select-skill {
+  width: 50%;
+  position: absolute;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__learn-skills__skill-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--soft-gray);
+  color: blZ;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.home__learn-skills__skill-box:hover {
+  background-color: var(--dark-gray);
+  color: white;
+}
+
+.home__learn-skills__skill .selected {
+  color: white;
+  background-color: var(--dark-gray);
+}
+
+.home__learn-skills__flex-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home__learn-skills__flex-box:last-child {
+  align-items: flex-end;
+  margin-top: -2rem;
+}
+
+.home__learn-skills__step {
+  width: 20%;
+  border-radius: 20px;
+  color: white;
+  padding: 2rem;
+}
+
+.home__learn-skills__step p:first-child {
+  margin-bottom: 2rem;
+}
+
+.home__learn-skills__flex-box .step1 {
+  height: 100px;
+  background-color: var(--dark-gray);
+}
+
+.home__learn-skills__flex-box .step2 {
+  height: 160px;
+  background-color: var(--main-color);
+}
+
+.home__learn-skills__flex-box .step3 {
+  height: 100px;
+  background-color: var(--soft-gray);
+  color: black;
+}
+
+.home__learn-skills__flex-box .step4 {
+  height: 160px;
+  background-color: var(--soft-gray);
+  color: black;
+}
+
+.home__learn-skills__flex-box .step5 {
+  height: 100px;
+  background-color: var(--dark-gray);
+}
+
+.home__learn-skills__flex-box .step6 {
+  height: 160px;
+  background-color: var(--main-color);
+}
+
+/* learn-class__title */
+.home__learn-class__title {
+  color: var(--dark-color);
+  margin-top: 20rem;
+  text-align: center;
+}
+
+.home__learn-class__title p {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.home__learn-class__title span.bold {
+  color: var(--main-color);
+}
+
+/* learn-class */
+
+.home__learn-class {
+  text-align: center;
+}
+
+.home__learn-class p {
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10rem;
+}
+
+.home__learn-class span.bold {
+  color: var(--dark-gray);
+}
+
+.home__learn-class img {
+  margin-top: 3rem;
+  padding-left: 4rem;
+  padding-right: 3rem;
+}
+
+/* why bold*/
+.home__main-page__why {
+  color: var(--main-color);
+  margin-top: 20rem;
+  text-align: right;
+}
+
+.home__main-page__why .bold {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.home__main-page__why .bold span.bold1 {
+  padding-right: 10rem;
+}
+
+.home__main-page__why .bold span.bold2 {
+  color: var(--dark-gray);
+}
+
+.home__main-page__why .bold-small {
+  padding-top: 0.5rem;
+}
+
+/* why flex-box*/
+.home__main-page__why__flex-box {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  color: var(--dark-gray);
+  border-radius: 12px;
+}
+
+.home__main-page__why__flex-box .radius1 {
+  width: 470px;
+  height: 300px;
+  background-color: var(--dark-gray);
+}
+
+.home__main-page__why__flex-box .radius2 {
+  width: 470px;
+  height: 300px;
+  background-color: var(--main-color);
+}
+
+.home__main-page__why__flex-box .radius3 {
+  width: 470px;
+  height: 300px;
+  background-color: var(--dark-gray);
+}
+
+/* why footer*/
+.home__main-page__why__footer {
+  width: 100%;
+  margin-top: 10rem;
+  background-color: #ededed;
+  padding: 0 13%;
+  margin-left: -13%;
+}
+
+.home__main-page__why__footer p {
+  padding-top: 2rem;
+  margin-left: -7rem;
+  color: #a4a4a4;
+}
